@@ -21,7 +21,7 @@ class TestController extends Controller
 
             $product->save();
 
-            $product_price = round(floatval($product->price->amount()) * 0.8403361344537815, 4);
+            $product_price = round(floatval($product->price->amount()) * 0.91743119, 4);
         }
         else{
             $product_price = -1;
